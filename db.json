@@ -50,6 +50,23 @@
         "ytd": 0.18
       },
       "risk": 0.14
+    },
+    {
+      "id": 4,
+      "name": "heloooo",
+      "name_display": "StashAway",
+      "portfolioRatio": {
+        "stocks": "n/a",
+        "bonds": "n/a"
+      },
+      "returns": {
+        "month_1": 0.092,
+        "month_6": 0.123,
+        "year_1": 0.21,
+        "year_5": 0.13,
+        "ytd": 0.18
+      },
+      "risk": 0.14
     }
   ]
 }
