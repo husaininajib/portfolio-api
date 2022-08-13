@@ -38,20 +38,14 @@ module.exports = () => {
   };
 
   data.portfolio.forEach((item) => {
-    for (let i = 0; i < 2190; i++) {
+    for (let i = 0; i < 12; i++) {
       const randomRate = +Math.random().toFixed(2);
       item.returns.push({
         rate: randomRate > 0.5 ? randomRate / 2 : randomRate,
-        day: i + 1,
+        date: `2022-${(i + 1).toString().split('').length > 1 ? i + 1 : `0${i + 1}`}-13T14:11:32.767Z`,
       });
     }
   });
 
-  // for (let i = 0; i < 100; i++) {
-  //   data.products.push({
-  //     id: i,
-  //     title: `products${i}`,
-  //   });
-  // }
   return data;
 };
