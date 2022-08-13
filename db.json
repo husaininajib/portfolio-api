@@ -1,0 +1,55 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "name": "dgsix",
+      "name_display": "DFA Global Allocation 60/40 Portfolio",
+      "portfolioRatio": {
+        "stocks": 0.6,
+        "bonds": 0.4
+      },
+      "returns": {
+        "month_1": -0.0864,
+        "month_6": 0.0364,
+        "year_1": -0.0678,
+        "year_5": 0.0683,
+        "ytd": -0.0864
+      },
+      "risk": "n/a"
+    },
+    {
+      "id": 2,
+      "name": "bacpx",
+      "name_display": "BlackRock 20/80 Target Allocation Fund",
+      "portfolioRatio": {
+        "stocks": 0.2,
+        "bonds": 0.8
+      },
+      "returns": {
+        "month_1": 0.0299,
+        "month_6": 0.0129,
+        "year_1": -0.0933,
+        "year_5": 0.031,
+        "ytd": -0.1033
+      },
+      "risk": "n/a"
+    },
+    {
+      "id": 3,
+      "name": "stashaway",
+      "name_display": "StashAway",
+      "portfolioRatio": {
+        "stocks": "n/a",
+        "bonds": "n/a"
+      },
+      "returns": {
+        "month_1": 0.092,
+        "month_6": 0.123,
+        "year_1": 0.21,
+        "year_5": 0.13,
+        "ytd": 0.18
+      },
+      "risk": 0.14
+    }
+  ]
+}
